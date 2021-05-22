@@ -1,0 +1,8 @@
+name: ServerManagerTestPlugin
+version: 1.0.0
+author: Naruse
+main: fr.naruse.example.main.ExamplePlugin
+depend:
+  - ServerManager
+commands:
+  smCommands:
