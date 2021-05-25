@@ -1,3 +1,5 @@
+***See Hub.jar to have a little plugin that allows you to switch server thanks to an inventory***
+***
 ***ServerManager Event list***
   * **Config**
     * ConfigurationLoadedEvent [Called when all configurations are loaded]
