@@ -1,4 +1,4 @@
-***Event list***
+***ServerManager Event list***
   * **Config**
     * ConfigurationLoadedEvent [Called when all configurations are loaded]
       * File getServerTemplateFolder
