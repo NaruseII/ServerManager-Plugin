@@ -31,3 +31,13 @@
     * InitializationStartEvent [Called before ServerManager start]
     * InitializationEndedEvent [Called after ServerManager start]
     * ShutdownEvent [Called before ServerManager shutdown]
+***
+***Packet List***
+  * PacketBroadcast [Send broadcast message] [Destination: Bungee]
+    * String msg
+  * PacketExecuteConsoleCommand [Execute command on console] [Destination: All]
+    * String command
+  * PacketShutdown [Shutdown targetted server] [Destination: All]
+  * PacketSwitchServer [Switch a player from server] [Destination: Bungee]
+    * Server destinationServer
+    * String... playerNames
