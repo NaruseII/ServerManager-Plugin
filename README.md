@@ -1,0 +1,3 @@
+Event list:
+  -> Config:
+    **fg
